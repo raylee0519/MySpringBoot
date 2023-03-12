@@ -1,4 +1,4 @@
-package com.example.hackathon.restaurant.domain.entity;
+package com.example.springStudy.restaurant.domain.entity;
 
 import jakarta.persistence.*;
 import lombok.Builder;

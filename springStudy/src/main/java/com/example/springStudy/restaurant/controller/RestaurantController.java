@@ -1,8 +1,8 @@
-package com.example.hackathon.restaurant.controller;
+package com.example.springStudy.restaurant.controller;
 
-import com.example.hackathon.restaurant.dto.RestaurantRequest;
-import com.example.hackathon.restaurant.dto.RestaurantResponse;
-import com.example.hackathon.restaurant.service.RestaurantService;
+import com.example.springStudy.restaurant.dto.RestaurantRequest;
+import com.example.springStudy.restaurant.dto.RestaurantResponse;
+import com.example.springStudy.restaurant.service.RestaurantService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.validation.annotation.Validated;

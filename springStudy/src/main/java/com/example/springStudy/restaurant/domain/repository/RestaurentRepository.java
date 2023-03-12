@@ -1,6 +1,6 @@
-package com.example.hackathon.restaurant.domain.repository;
+package com.example.springStudy.restaurant.domain.repository;
 
-import com.example.hackathon.restaurant.domain.entity.Restaurant;
+import com.example.springStudy.restaurant.domain.entity.Restaurant;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

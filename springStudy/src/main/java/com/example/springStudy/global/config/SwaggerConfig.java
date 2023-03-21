@@ -13,6 +13,6 @@ public class SwaggerConfig {
         return new OpenAPI().info(new Info()
                 .title("Review API")
                 .description("API for managing review"));
-    }
+    }  
 
 }

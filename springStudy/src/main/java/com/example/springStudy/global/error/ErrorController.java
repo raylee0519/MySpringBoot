@@ -8,7 +8,7 @@ import org.webjars.NotFoundException;
 
 @RestControllerAdvice
 public class ErrorController {
-
+  
     @ExceptionHandler(value = NotFoundException.class)
     public ResponseEntity<String> errorHandler(RuntimeException e) {
         String errorMessage = "An error occurred: " + e.getMessage();

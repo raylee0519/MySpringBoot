@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 import java.util.List;
 
 @Repository
-public interface ReviewRepository extends JpaRepository<Review, Integer>{
+public interface ReviewRepository extend s JpaRepository<Review, Integer>{
 
     @Query(value = "SELECT r\n " +
             "FROM Review r\n " +
@@ -20,4 +20,4 @@ public interface ReviewRepository extends JpaRepository<Review, Integer>{
             String content,
             Pageable pageable
     );
-}
+} 

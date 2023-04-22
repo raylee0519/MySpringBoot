@@ -14,5 +14,5 @@ public class SwaggerConfig {
                 .title("Review API")
                 .description("API for managing review"));
     }  
-
+ 
 }

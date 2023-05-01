@@ -24,7 +24,7 @@ public class RestaurantController {
     ) {
         return service.save(request);
     }
-
+ 
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<RestaurantResponse> findAll() {

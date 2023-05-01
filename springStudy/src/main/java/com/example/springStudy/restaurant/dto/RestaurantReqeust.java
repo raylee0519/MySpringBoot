@@ -12,7 +12,7 @@ public class RestaurantRequest {
     @NotBlank
     private String name;
 
-    @NotBlank
+    @NotBlank 
     private String category;
 
     public Restaurant toEntity() {

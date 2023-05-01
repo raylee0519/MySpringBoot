@@ -36,7 +36,7 @@ public class RestaurantService {
                 .map(RestaurantResponse::of)
                 .collect(Collectors.toList());
     }
-
+ 
     public Restaurant findEntity(Integer id) {
         return repository.findByIdAndIsDeleted(id, false)
                 .orElseThrow(() -> new NotFoundException("레스토랑을 찾을 수 없습니다."));
